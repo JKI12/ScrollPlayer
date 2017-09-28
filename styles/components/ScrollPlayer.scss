@@ -1,0 +1,43 @@
+$timing: 1s;
+
+.c-scroll-player {
+  width: 100%;
+  height: auto;
+
+  h1 {
+    text-align: center;
+  }
+
+  .content {
+    width: 60vw;
+    margin: 0 auto;
+
+    .c-video-player-wrapper {
+      height: 18vw !important;
+    }
+
+    .c-video-player {
+      div {
+        width: 32vw !important;
+        height: 18vw !important;
+        display: block;
+        margin: 0 auto;  
+      }
+    }
+
+    .c-video-player-scroll {
+      position: fixed;
+      top: 2%;
+      transform: translateX(-105%);
+
+      div {
+        width: 18vw !important;
+        height: 10vw !important;
+      }
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}

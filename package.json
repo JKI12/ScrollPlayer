@@ -1,0 +1,33 @@
+{
+  "name": "scroll_player",
+  "version": "0.0.1",
+  "description": "A toolbelt component.",
+  "main": "src/components/ScrollPlayer.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "toolbelt test",
+    "preview": "toolbelt preview"
+  },
+  "author": "Sky UK",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^1.0.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-player": "^0.24.5",
+    "react-visibility-sensor": "^3.10.1",
+    "sky-toolkit": "github:sky-uk/toolkit"
+  },
+  "toolbelt": {
+    "name": "ScrollPlayer",
+    "preview": "src/preview.js",
+    "index": "src/index.js"
+  }
+}
